@@ -1,5 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
-import { breakpoints, spacing, siteColors } from "./utils";
+import { breakpoints } from "./breakpoints";
+import { spacing } from "./spacing";
+import { siteColors } from "./colors";
 
 export default {
   breakpoints,

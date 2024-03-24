@@ -26,7 +26,8 @@ const Loading = ({ height, itemColors }) => (
     display="flex"
     alignItems="center"
     justifyContent="center"
-    height={height}
+    height="100%"
+    width="100%"
   >
     {itemColors.map((backgroundColor, i) => (
       <LoadingBall
